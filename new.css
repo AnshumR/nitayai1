@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #f00;
+  }
+
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077b6;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #023e8a;
+  }
+
+  #purpose {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  #purpose h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  #purpose p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  #ai-room {
+    background-color: #f5f5f5;
+    padding: 80px 0;
+  }
+  
+  #ai-room h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 60px;
+  }
+  
+  #ai-room p {
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 60px;
+  }
+  
+  .video-container-ai {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .video-container-ai video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    #ai-room h2 {
+      font-size: 28px;
+    }
+    
+    #ai-room p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+  }
+
+  #group-discussion-room {
+    background-color: #f9f9f9;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #group-discussion-room h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #group-discussion-room .video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    margin-bottom: 30px;
+  }
+  
+  #group-discussion-room .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  #group-discussion-room p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: #555;
+  }
+  
